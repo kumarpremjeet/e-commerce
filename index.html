@@ -1,0 +1,871 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+ <title>template-2</title>
+ <!-- font awesome -->
+ <script src="https://kit.fontawesome.com/ffd161b5f3.js" crossorigin="anonymous"></script>
+  <!-- font awesome end-->
+</head>
+  <body>
+      <!-- header secsion -->
+  <header class="text-gray">
+      <div class="headLeft">WELCOME TO OUR SHOP!</div>
+      <div class="headRight">
+        <span  data-bs-toggle="modal" data-bs-target="#staticBackdrop1"><i class="fa-solid fa-location-dot"></i> Select locatio</span>
+        <span data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="fa-solid fa-right-to-bracket"></i> LogIn</span>
+        <span data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-arrow-right-to-bracket"></i> Register</span>
+      </div>
+  </header>
+  <!-- header secsion end here -->
+   <!-- header2 secsion -->
+   <div class="container px-4">
+    <div class="row p-3">
+        <div class="col-12 col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12">
+            <h3><span class="first">E</span>lectronic<span class="first">M</span>art</h3>
+        </div>
+        <div class="col-12 col-xxl-6 col-xl-6 col-lg-6 col-md-8 col-sm-8">
+            <div class="search-container">
+                <form action="#">
+                  <input type="text" placeholder="Search.." name="search" /><button
+                    type="submit"
+                  >
+                    <i class="fa fa-search"></i>
+                  </button>
+                </form>
+              </div>
+        </div>
+        <div class="col-9 col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-4 right">
+           <i class="fa-solid dark fa-moon"></i>
+            <i class="fa-solid fa-heart"></i>
+         <span id="card"><i  class="fa-solid fa-cart-shopping"></i> Cart</span>
+        </div>
+    </div>
+   </div>
+    <!-- header2 secsion end here -->
+
+    <!-- nav -->
+   <nav class="bg-blue">
+       <div class="container px-5">
+          <div class="row align-items-center">
+              <div class="col-6 col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 navOptioItom">
+                <select  name="product" id="">
+                   <option value="1">All categories</option>
+                   <option value="1">Laptop</option>
+                   <option value="1">Mobile</option>
+                   <option value="1">Laptop</option>
+                   <option value="1">Television</option>
+                   <option value="1">Refresetor</option>
+                   <option value="">Camera</option>
+                   <option value="">Drone</option>
+                </select>
+              </div>
+              <div class=" faBar col-6 col-xxl-0 col-xl-0 col-lg-0 col-md-6 col-sm-6"> 
+                <i class="fa-solid fa-bars"></i>
+            </div>
+              <div class="col-12  col-xxl-9 col-xl-9 col-lg-9 col-md-12 col-sm-12 nacContent">
+                  <ul>
+                      <li >
+                          <a href="#">Home</a>
+                      </li>
+                      <li class="elec">
+                        <a  href="#">Electronic <i class="fa-solid fa-sort-down"></i></a>
+                        <div class="dropdown1  pb-2">
+                           <div class="row px-5 pt-3">
+                            <h5 class="pb- px-5 orange"> Mobiles, Computers</h5>
+                               <div class="col">
+                                    <ul>
+                                       <li>All Mobile Phones</li>
+                                       <li>All Mobile Accessories</li>
+                                       <li>Cases & Covers</li>
+                                       <li>Screen Protectors</li>
+                                       <li>Power Banks</li>
+                                       <li>All Certified Refurbished</li>
+                                  </ul>
+                            </div>
+                               <div class="col">
+                                <ul>
+                                    <li>All Mobile Phones</li>
+                                    <li>All Mobile Accessories</li>
+                                    <li>Cases & Covers</li>
+                                    <li>Screen Protectors</li>
+                                    <li>Power Banks</li>
+                                    <li>All Certified Refurbished</li>
+                               </ul>
+                               </div>
+                           </div>
+                        </div>
+                    </li>
+                    <li class="applinces">
+                        <a  href="#">Appliences <i class="fa-solid fa-sort-down"></i></a>
+                        <div class=" dropdown2  pb-2">
+                            <div class="row px-5 pt-3">
+                             <h5 class="pb- px-5 orange"> TV, Appliances, Electronics</h5>
+                                <div class="col">
+                                     <ul>
+                                        <li>All Mobile Phones</li>
+                                        <li>All Mobile Accessories</li>
+                                        <li>Cases & Covers</li>
+                                        <li>Screen Protectors</li>
+                                        <li>Power Banks</li>
+                                        <li>All Certified Refurbished</li>
+                                   </ul>
+                             </div>
+                                <div class="col">
+                                 <ul>
+                                     <li>All Mobile Phones</li>
+                                     <li>All Mobile Accessories</li>
+                                     <li>Cases & Covers</li>
+                                     <li>Screen Protectors</li>
+                                     <li>Power Banks</li>
+                                     <li>All Certified Refurbished</li>
+                                </ul>
+                                </div>
+                            </div>
+                         </div>
+                    </li>
+                    <li>
+                        <a href="#">AboutUs</a>
+                    </li>
+                    <li>
+                        <a href="#">NewArrivals</a>
+                    </li>
+                    <li>
+                        <a href="#">ContactUs</a>
+                    </li>
+                  </ul>
+              </div>
+          </div>
+       </div>
+   </nav>
+   <!-- nav end -->
+<!-- Login form-->
+  <div class="modal fade " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog p-5">
+      <div class="modal-content bg-review">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Log In</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">User name</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Remember me?</label>
+                </div>
+                <div class="d-grid gap-2">
+                    <button class="btn bg-orange" type="button">Button</button>
+                  </div>
+              </form>
+              <p class="px-5 pt-3">Don't have an account? &nbsp;&nbsp; <a href="#"> Register</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- Login form end-->
+
+   <!-- register form -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content bg-review">
+       <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Registor</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row mt-3">
+          <label for="name">Your name :
+          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+        </div>
+        <div class="row mt-3">
+          <label for="name">Email :
+          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+        </div>
+        <div class="row mt-3 px-3">
+          <label for="inputPassword4" class="form-label">Password</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <div class="row mt-3 px-3">
+          <label for="inputPassword4" class="form-label">Conform password</label>
+          <input type="password "  class="form-control" id="inputPassword4">
+        </div>
+        <div class="row mt-4 px-3">
+          <button class="btn bg-orange" type="button">Button</button>
+        </div>
+        <div class="row mt-4 px-5">
+         <span class="text-gray">I Accept to the Terms & Conditions</span>
+         <span class="text-center mt-3">(Or)</span><br>
+         <span class="text-center">
+          <i class="fab text-primary fa-facebook"></i>
+          <i class="fab text-info fa-twitter"></i>
+          <i class="fab text-danger fs-3 fa-google-plus-g"></i>
+         </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- register form end -->
+   
+    <!-- for set location -->
+<div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content bg-review">
+        <h5 class="modal-title text-center mt-5">Please set your location</h5>
+      <div class="modal-body">
+        <select class="form-select p-3" aria-label="Default select example">
+          <option selected>Select country</option>
+          <option value="1">
+            America
+        </option>
+          <option value="2">India</option>
+          <option value="3">Chine</option>
+          <option value="4">Pakistan</option>
+          <option value="3">Rusea</option>
+          <option value="3">Bhutan</option>
+          <option value="3">Bangladesh</option>
+          <option value="3">Ukrain</option>
+          <option value="3">Koria</option>
+          <option value="3">Dakchinkoria</option>
+          <option value="3">South Aphrika</option>
+          <option value="3">Malesia</option>
+          <option value="3">Shrilanka</option>
+          <option value="3">Bojing</option>
+          <option value="3">Koria</option>
+          <option value="3">Dakchinkoria</option>
+          <option value="3">South Aphrika</option>
+          <option value="3">Malesia</option>
+          <option value="3">Shrilanka</option>
+          <option value="3">Bojing</option>
+        </select>
+      </div>
+      <div class="modal-footer mt-5">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- for set location session end here -->
+
+   <!-- banner section -->
+   <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="row">
+            <div class="col p-5 banerHead">
+                <h6 class="banerContent">Top <span id="big">Sale</span>  Best <span id="big">Deals</span></h6>
+                <h1 class="banerContent">FRESH, HEALTHY AIR EVERYWHERE !</h1>
+                <button type="button" class="btn bg-orange banerContent">Shop Now</button>
+            </div>
+            <div class="col banerImg">
+                <img class="img-fluid" src="img/appliances-993782.png" alt="">
+            </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="row">
+            <div class="col p-5 banerHead">
+                <h6 class="banerContent">Get Flat<span id="big">10%</span>  Caseback</h6>
+                <h1 class="banerContent">EXCITING DEALS ON TELEVISIONS ! !</h1>
+                <button type="button" class="btn bg-orange banerContent">Shop Now</button>
+            </div>
+            <div class="col banerImg">
+                <img class="img-fluid" src="img/Xiaomi-Mi-10-and-Mi-10-Pro-removebg-preview.png" alt="">
+            </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="row">
+            <div class="col p-5 banerHead">
+                <h6 class="banerContent">Top <span id="big">Brand</span>  Lowest <span id="big">Price</span></h6>
+                <h1 class="banerContent">MART WATCHES NEW COLLECTION !</h1>
+                <button type="button" class="btn bg-orange banerContent">Shop Now</button>
+            </div>
+            <div class="col banerImg">
+                <img class="img-fluid" src="img/time-3091031_1920-removebg-preview.png" alt="">
+            </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+   <!-- banner section end here -->
+
+   <!-- product section start here -->
+   <div class="container-fluid mt-5">
+        <div class="container p-4">
+           <h2 class="text-center p-4 "> Our <span class="text-black productHeading">New Products</span></h2>
+            <div class="row row1 gx-4">
+              <div class="col-12 col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12">
+               <div class="p-3 border bg-review">
+                 <h5>CUSTOMER REVIEW</h5>
+                 <p class="pt-3 orange">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <span class="rating">5.0</span>
+                  </p>
+                  <p class="pt-1 orange">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <span class="rating">4.0</span>
+                   </p>
+                   <p class="pt-1 orange">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                    <span class="rating">3.5</span>
+                   </p>
+                   <p class="pt-1 orange">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <span class="rating">2.0</span>
+                   </p>
+                   <p class="pt-1 orange">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                    <span class="rating">2.4</span>
+                   </p>
+
+                   <h5 class="pt-3">PRICE</h5>
+                   <p class="price">Under $1,000</p>
+                   <p class="price">$1,000 - $5,000</p>
+                   <p class="price">$5,000 - $10,000</p>
+                   <p class="price">$10,000 - $20,000</p>
+                   <p class="price">$20,000 $30,000</p>
+
+                   <h5 class="pt-3">DISCOUNT</h5>
+                   <p>
+                   <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                   <label class="form-check-label" for="flexCheckDefault">
+                    5% or More
+                   </label>
+                  </p>
+                  <p>
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                          10% or More
+                      </label>
+                 </p>
+                 <p>
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    20% or More
+                  </label>
+             </p>
+
+             <p>
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                30% or More
+              </label>
+         </p>
+
+         <p>
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            50% or More
+          </label>
+         </p>
+         <p>
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+               60% or More
+           </label>
+         </p>
+
+         <h5 class="pt-3">ELECTRONICS</h5>
+         <p>
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            Accessories
+           </label>
+         </p>
+         <p>
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            Cameras & Photography
+           </label>
+         </p>
+         <p>
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            Car & Vehicle Electronics
+           </label>
+         </p>
+         <p>
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            Computers & Accessories
+           </label>
+         </p>
+         <p>
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            GPS & Accessories
+           </label>
+         </p>
+         <p>
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            Headphones
+           </label>
+         </p>
+         <p>
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            Home Audio
+           </label>
+         </p>
+         <p>
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            Home Theater, TV & Video
+           </label>
+         </p>
+
+         <h5 class="pt-3">CASH ON DELIVERY</h5>
+         <p>
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            Eligible for Cash On Delivery
+           </label>
+         </p>
+         <h5 class="pt-3">NEW ARRIVALS</h5>
+         <p>
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            Last 30 days
+           </label>
+         </p>
+         <p>
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            Last 90 days
+           </label>
+         </p>
+         <h5 class="pt-3">BEST SELLER</h5>
+         <marquee  onMouseOver="this.stop()" onMouseOut="this.start()" behavior="" direction="up">
+         <p class="bestSeller"><img src="img/lapto2.jpeg" alt="laptop">
+          <span>Hp laptop 4core</span> 
+    <span class="fs-5">$213.09</span>
+        </p>
+
+        <p class="bestSeller"><img src="img/mouse1.jpeg" alt="laptop">
+          <span>Hp laptop 4core</span> 
+    <span class="fs-5">$213.09</span>
+        </p>
+
+        <p class="bestSeller"><img src="img/realmephone.jpeg" alt="laptop">
+          <span>Hp laptop 4core</span> 
+    <span class="fs-5">$213.09</span>
+        </p>
+      </marquee>
+               </div>
+              </div>
+              <div class="mb-2 col-12 col-xxl-9 col-xl-9 col-lg-9 col-md-12 col-sm-12">
+                <div class="container">
+                  <div class="row  g-5">
+                    <div  class="col-12 col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                      <div class="p-4 border text-center product phone">
+                        <img  src="img/applephone.jpeg" alt="iphone">
+                        <div id="phone1">
+                        <p  class="pt-1">Apple iPhone 11<p>
+                          <h5><span class="text-black phone1">$280.00</span> <span class="text-decoration-line-through priseless">$300</span></h5>
+                        </div>
+                          <input class="btn btn1 mt-3 bg-blue text-white button1" type="submit" value="Add to cart">
+                          <div class="card-hover">
+                            Quack view
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                      <div class="p-4 border text-center product phone">
+                        <div class="new-item new-bg1">New</div>
+                        <img  src="img/pocophone.jpeg" alt="iphone">
+                        <p class="pt-1">Poco Phone<p>
+                          <h5><span class="text-black">$480.00</span> <span class="text-decoration-line-through priseless">$300</span></h5>
+                           <input class="btn btn1 mt-3 bg-blue text-white" type="submit" value="Add to cart">
+                           <div class="card-hover">
+                             Quack view
+                           </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                      <div class="p-4 border text-center product phone">
+                        <img  src="img/realmephone.jpeg" alt="iphone">
+                        <p class="pt-1">Realme 9<p>
+                          <h5><span class="text-black">$180.00</span> <span class="text-decoration-line-through priseless">$300</span></h5>
+                            <input class="btn btn1 mt-3 bg-blue text-white" type="submit" value="Add to cart">
+                            <div class="card-hover">
+                              Quack view
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                      <div class="p-4 border text-center product laptop">
+                        <div class="new-item new-bg2">New</div>
+                        <img  src="img/laptop1.jpeg" alt="iphone">
+                        <p class="pt-1">HP 14 Core i5<p>
+                          <h5><span class="text-black">$180.00</span> <span class="text-decoration-line-through priseless">$300</span></h5>
+                            <input class="btn btn1 mt-3 bg-blue text-white" type="submit" value="Add to cart">
+                            <div class="card-hover">
+                              Quack view
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                       <div class="p-4 border text-center product laptop">
+                        <img  src="img/lapto3.jpeg" alt="iphone">
+                        <p class="pt-1">Asus m32 Core i7<p>
+                          <h5><span class="text-black">$180.00</span> <span class="text-decoration-line-through priseless">$300</span></h5>
+                            <input class="btn btn1 mt-3 bg-blue text-white" type="submit" value="Add to cart">
+                            <div class="card-hover">
+                              Quack view
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                       <div class="p-4 border text-center product laptop">
+                        <img  src="img/lapto2.jpeg" alt="iphone">
+                        <p class="pt-1">Asus Core i5<p>
+                          <h5><span class="text-black">$180.00</span> <span class="text-decoration-line-through priseless">$300</span></h5>
+                            <input class="btn btn1 mt-3 bg-blue text-white" type="submit" value="Add to cart">
+                            <div class="card-hover">
+                              Quack view
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="p-4 border text-center product tv">
+                          <img  src="img/tv1.jpeg" alt="iphone">
+                          <p class="pt-1">Hp Decktop<p>
+                            <h5><span class="text-black">$580.00</span> <span class="text-decoration-line-through priseless">$900</span></h5>
+                              <input class="btn btn1 mt-3 bg-blue text-white" type="submit" value="Add to cart">
+                                 <div class="card-hover">
+                             Quack view
+                           </div>
+                          </div>
+                    </div>
+                    <div class="col-12 col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="p-4 border text-center product tv">
+                          <img  src="img/tv2.jpeg" alt="iphone">
+                          <p class="pt-1">Hp Decktop<p>
+                            <h5><span class="text-black">$580.00</span> <span class="text-decoration-line-through priseless">$900</span></h5>
+                              <input class="btn btn1 mt-3 bg-blue text-white" type="submit" value="Add to cart">
+                                 <div class="card-hover">
+                             Quack view
+                           </div>
+                          </div>
+                    </div>
+                    <div class="col-12 col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="p-4 border text-center product tv">
+                          <img  src="img/mose2.jpeg" alt="iphone">
+                          <p class="pt-1">Hp Decktop<p>
+                            <h5><span class="text-black">$580.00</span> <span class="text-decoration-line-through priseless">$900</span></h5>
+                              <input class="btn btn1 mt-3 bg-blue text-white" type="submit" value="Add to cart">
+                              <div class="card-hover">
+                                Quack view
+                              </div>
+                          </div>
+                    </div>
+                    <div class="col-12 col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                      <div class="p-4 border text-center product watch">
+                        <img  src="img/watch1.jpeg" alt="iphone">
+                        <p class="pt-1">Men Watch<p>
+                          <h5><span class="text-black">$5.00</span> <span class="text-decoration-line-through priseless">$50</span></h5>
+                            <input class="btn btn1 mt-3 bg-blue text-white" type="submit" value="Add to cart">
+                            <div class="card-hover">
+                              Quack view
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                      <div class="p-4 border text-center product watch">
+                        <img  src="img/watch2.jpeg" alt="iphone">
+                        <p class="pt-1">Analog men watch<p>
+                          <h5><span class="text-black">$10.00</span> <span class="text-decoration-line-through priseless">$40</span></h5>
+                            <input class="btn btn1 mt-3 bg-blue text-white" type="submit" value="Add to cart">
+                            <div class="card-hover">
+                              Quack view
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                      <div class="p-4 border text-center product watch">
+                        <img  src="img/watch3.jpeg" alt="iphone">
+                        <p class="pt-1">Analog femele watch<p>
+                          <h5><span class="text-black">$80.00</span> <span class="text-decoration-line-through priseless">$90</span></h5>
+                            <input class="btn btn1 mt-3 bg-blue text-white" type="submit" value="Add to cart">
+                            <div class="card-hover">
+                              Quack view
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+          </div>
+       </div>
+   </div>
+    <!-- product section end here -->
+
+    <!-- tranding product -->
+ <div class="container-fluid bg-trandy">
+  <div class="container p-5">
+    <div class="row gx-5">
+      <div class="col-12 col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 mb-2">
+       <div class="p-5 rounded border bg-light">
+        <div class="row">
+          <div class="col-12 col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+            <p class="mt-5 text-gray ">New collections , New trandy</p>
+            <h4 >SMART WATCHES</h4>
+            <p class=" text-gray">Sale up to 25%OFF in store</p>
+          </div>
+          <div class="col-12 col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 trandy-pro">
+            <img class="img-fluid " src="img/smart-watch.jpeg" alt="">
+          </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12">
+        <div class="p-5 rounded border bg-light">
+          <div class="row">
+            <div class="col">
+              <p class="mt-5 text-gray ">Top brand lowest price</p>
+              <h4 >SMART PHONE</h4>
+              <p class=" text-gray">Free shipping order over $100.00</p>
+            </div>
+            <div class="col trandy-pro">
+              <img class="img-fluid " src="img/realmephone.jpeg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   </div>
+     <!-- tranding product end -->
+<!-- our responcsibilities -->
+     <div class="container-fluid bg-white p-4">
+  <div class="container pt-5">
+    <div class="row">
+      <div class="col">
+        <h4 class="px-5">Electronics :</h4>
+        <p class="px-5 pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptates in ducimus quia quas cumque nulla ullam ea suscipit repudiandae velit minima quidem saepe earum est repellat, aperiam voluptatem recusandae! Hic, consequatur eum quaerat non aliquam amet illum ad fugiat impedit. Inventore doloribus aut aperiam voluptates voluptate animi eos excepturi nihil libero ipsa veritatis, nostrum id distinctio reiciendis qua.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 p-5">
+        <div class="row">
+          <div class="col"><i class="fas fa-cart-plus"></i></div>
+          <div class="col">
+            <h4>Free Shipping</h4>
+            <span class="text-gray">on orders over $100</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 p-5">
+         <div class="row">
+          <div class="col"><i class="fas fa-shipping-fast"></i></div>
+          <div class="col">
+            <h4>Fast delevery</h4>
+            <span class="text-gray">on orders over $100</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 p-5">
+         <div class="row">
+          <div class="col"><i class="far fa-thumbs-up"></i></div>
+          <div class="col">
+            <h4>Good choice</h4>
+            <span class="text-gray">on orders over $100</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+     </div>
+<!-- our responcsibilities end -->
+<!-- footer1 -->
+<div class="container-fluid bg-footer1">
+    <div class="container">
+      <div class="row gy-5">
+        <div class="col-12 col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 px-5">
+          <div class="p-3">
+            <h5 class="text-white">Categories</h5>
+            <p class="text-gray">Mobiles</p>
+            <p class="text-gray">Computers</p>
+            <p class="text-gray">TV, Audio</p>
+            <p class="text-gray">Smartphones</p>
+            <p class="text-gray">Washing Machines</p>
+            <p class="text-gray">Refrigerators</p>
+          </div>
+        </div>
+        <div class="col-12 col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12">
+          <div class="p-3">
+            <h5 class="text-white">Quick Links</h5>
+            <p class="text-gray">About Us</p>
+            <p class="text-gray">Contact Us</p>
+            <p class="text-gray">TV, Audio</p>
+            <p class="text-gray">Help</p>
+            <p class="text-gray">Faqs</p>
+            <p class="text-gray">Terms of use</p>
+          </div>
+        </div>
+        <div class="col-12 col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12">
+          <div class="p-3">
+              <h5 class="text-white">Get in Touch</h5>
+            <p class="text-gray"><i class="fas fa-location-arrow"></i>
+              Mkc, 123 Sebastian, USA.
+            </p>
+            <p class="text-gray"><i class="fas fa-mobile"></i>
+              12 2345 6790
+            </p>
+            <p class="text-gray"><i class="fas fa-phone"></i>
+               +11 3672 1890
+            </p>
+            <p class="text-gray"><i class="far fa-envelope"></i>
+               kumarpremjet364364@gmail.com
+            </p>
+            <p class="text-gray">
+              <i class="far fa-envelope"></i>
+            prem23@gmail.com
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12">
+          <div class="p-3">
+              <h5 class="text-white">Newsletter</h5>
+            <p class="text-gray">Free Delivery on your first order!</p>
+             
+            <div class="input-group mt-5">
+              <input type="text" class="form-control" placeholder="Enter email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+              <span class="input-group-text" id="basic-addon2">@gmai.com</span>
+            </div>
+
+            
+            <h5 class="text-white mt-5">Follow Us on</h5>
+             <i class="fab fa-facebook"></i>
+             <i class="fab fa-twitter"></i>
+             <i class="fab fa-google-plus"></i>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+<!-- footer1 end -->
+<!-- footer2 -->
+<div class="container-fluid">
+  <div class="container p-5">
+     <h5 class="text-black">Mobile & Tablets :</h5>
+     <p class="footerCont"><span>Android Phones </span> | <span> Smartphones</span>  | <span> Feature Phones</span>  | <span>Unboxed Phones</span>   | <span> Refurbished Phones</span>  | <span> Tablets</span>  | <span> CDMA Phones</span>  | <span> Value Added Services</span>  | <span> Sell Old Used Mobiles</span> </p>
+ 
+     <h5 class="text-black">Computers :</h5>
+      <p class="footerCont">
+        <span>Laptops</span> | <span>Printers</span> | <span>Routers</span> | <span>Ink & Toner</span> | <span>Cartridges</span> | <span>Monitors</span> |<span>Video Games</span> | <span>Unboxed & Refurbished Laptops</span> | <span>Assembled Desktops</span> | <span>Data Cards</span>
+      </p>
+
+      <h5 class="text-black">Appliances :</h5>
+      <p class="footerCont">
+        <span>Trimmers</span> | <span> Hair Dryers</span> | <span>Emergency Lights</span> | <span>Water Purifiers</span> | <span>Cartridges</span> | <span>Hair Straighteners</span> |<span>Video Games</span> | <span>Unboxed & Refurbished Laptops</span> | <span>Assembled Desktops</span> | <span>Data Cards</span>
+      </p>
+
+      <h5 class="text-black">Popular on Electronics Mart</h5>
+      <p class="footerCont">
+        <span>Trimmers</span> | <span> Hair Dryers</span> | <span> Hair Dryers</span> | <span> Hair Dryers</span> | <span>Emergency Lights</span> | <span>Water Purifiers</span> | <span>Cartridges</span> | <span>Hair Straighteners</span> |<span>Video Games</span> | <span>Unboxed & Refurbished Laptops</span> | <span>Assembled Desktops</span> | <span>Data Cards</span>
+      </p>
+
+      <h5 class="text-black">Payment Method</h5>
+      <p class="pyment">
+       <a href="#"> <img src="img/upi.png" alt="card1"></a>
+      <a href="#"><img src="img/visa.png" alt="card2"></a>
+     <a href="#"> <img src="img/paytm.png" alt="card2"></a>
+      <a href="#"><img src="img/rupya.jpg" alt="card2"></a>
+      <a href="#"><img src="img/upiii.jpg" alt="card2"></a>
+      </p>
+    </div>
+</div>
+<!-- footer2 end -->
+<!-- allright reserved -->
+<div class="container-fluid text-center text-gray p-3 bg-allright">
+  <p>&copy; 2022 Electronics Mart. All rights reserved | Design by <a href="#">Premjeet</a></p>
+</div>
+
+<div class="Card-container">
+  <i class="fas fa-window-close"></i>
+
+  <div id="product1" class="cart-product mt-5 p-3">
+    
+  </div>
+ 
+</div>
+
+  
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+   
+    <script>
+        $(document).ready(function(){
+            $(".dark").click(function(){
+                $(".dark").toggleClass("fa-sun");
+                $(".dark").toggleClass("fa-moon");
+                $("body").toggleClass("bg-color");
+
+                $('.bg-review').toggleClass('dartkcolorchange');
+            })
+
+            $(".fa-bars").click(function(){
+                $(".nacContent").animate({
+                    height:"toggle",
+                })
+
+               
+            })
+
+           
+            $("#card").click(function(){
+              $(".Card-container").show(100);
+            })
+            $(".fa-window-close").click(function(){
+              $(".Card-container").hide();
+            })
+            // set value
+
+            $(".button1").click(function(){
+              let pro= $("#phone1").html();
+              document.getElementById("product1").innerHTML=pro;
+
+            })
+
+        })
+    </script>
+    </html>
