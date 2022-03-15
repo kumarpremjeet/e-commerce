@@ -195,7 +195,7 @@ nav {
 }
 @media (max-width: 990px) {
   nav {
-    padding: 1.7%;
+     padding: 5% 0 5% 0;
   }
   .faBar {
     display: block;
