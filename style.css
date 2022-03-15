@@ -99,12 +99,15 @@ header {
 }
 /* nav */
 .fa-bars {
-  font-size: 1.3rem;
-  padding: 1.7% 3.5%;
+  font-size: 1.7rem;
+  padding: 1.7% 7%;
   border-radius: 5px;
   color: gray;
   float: right;
   background-color: rgb(255, 255, 255);
+}
+.fa-bars:hover {
+  box-shadow: 0 0 5px black;
 }
 .faBar {
   display: none;
